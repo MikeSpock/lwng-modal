@@ -8,23 +8,40 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://raw.githubusercontent.com/MikeSpock/lwng-modal/master/src/lwng-modal"></script>
+
+    <script src="https://rawgithub.com/MikeSpock/lwng-modal/master/src/lwng-modal.js"></script>
+
     <title>LWNG-Modal demo</title>
 
     <script>
-        angular.module('lwngDemo', []).controller('mainController',function($scope){
+        angular.module('lwngDemo', ['lwng.modal']).controller('mainController',['$scope','lwngModalFactory',function($scope,lwngModalFactory){
             $scope.onAlertClick = function(){
-                console.log('hi');
+                lwngModalFactory.alert({
+                    title:'This is my alert title',
+                    message: 'Are you sure you want to close this modal?'
+                }).then(
+                    function resolve(){
+                        alert('Modal resolved');
+                    },
+                    function reject(){
+                        alert('Modal rejected');
+                    }
+                );
+
             }
-        });
+        }]);
     </script>
 </head>
 
 <body ng-controller="mainController">
+<div class="container">
+    <h1>LWNG Modal Demo</h1>
+    <h3>Hit one of these</h3>
+    <button class="btn btn-large" ng-click="onAlertClick()">lwngModal.alert()</button>
+    <button class="btn btn-large" ng-click="onConfirmClick()">lwngModal.confirm()</button>
+    <button class="btn btn-large" ng-click="onDialogClick()">lwngModal.dialog()</button>
+</div>
 
-<button class="btn btn-large">lwngModal.alert()</button>
-<button class="btn btn-large">lwngModal.confirm()</button>
-<button class="btn btn-large">lwngModal.alert()</button>
 
 </body>
 </html>

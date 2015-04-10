@@ -19,23 +19,23 @@
 7 verbose parsed url   href: '.' }
 8 silly lockFile 3a52ce78- .
 9 verbose lock . /home/mihaly/.npm/3a52ce78-.lock
-10 verbose tar pack [ '/home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz',
+10 verbose tar pack [ '/home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz',
 10 verbose tar pack   '.' ]
-11 verbose tarball /home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
+11 verbose tarball /home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
 12 verbose folder .
 13 silly lockFile 1f1177db-tar tar://.
 14 verbose lock tar://. /home/mihaly/.npm/1f1177db-tar.lock
-15 silly lockFile b8abfd8f-89425-0-4519062105100602-tmp-tgz tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
-16 verbose lock tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz /home/mihaly/.npm/b8abfd8f-89425-0-4519062105100602-tmp-tgz.lock
+15 silly lockFile 2ddd388b-144-0-031264298828318715-tmp-tgz tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
+16 verbose lock tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz /home/mihaly/.npm/2ddd388b-144-0-031264298828318715-tmp-tgz.lock
 17 silly lockFile 1f1177db-tar tar://.
 18 silly lockFile 1f1177db-tar tar://.
-19 silly lockFile b8abfd8f-89425-0-4519062105100602-tmp-tgz tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
-20 silly lockFile b8abfd8f-89425-0-4519062105100602-tmp-tgz tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
-21 verbose tar unpack /home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
-22 silly lockFile 8ac1a7bb-89425-0-4519062105100602-package tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
-23 verbose lock tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package /home/mihaly/.npm/8ac1a7bb-89425-0-4519062105100602-package.lock
-24 silly lockFile b8abfd8f-89425-0-4519062105100602-tmp-tgz tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
-25 verbose lock tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz /home/mihaly/.npm/b8abfd8f-89425-0-4519062105100602-tmp-tgz.lock
+19 silly lockFile 2ddd388b-144-0-031264298828318715-tmp-tgz tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
+20 silly lockFile 2ddd388b-144-0-031264298828318715-tmp-tgz tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
+21 verbose tar unpack /home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
+22 silly lockFile 2eab9202-144-0-031264298828318715-package tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
+23 verbose lock tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package /home/mihaly/.npm/2eab9202-144-0-031264298828318715-package.lock
+24 silly lockFile 2ddd388b-144-0-031264298828318715-tmp-tgz tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
+25 verbose lock tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz /home/mihaly/.npm/2ddd388b-144-0-031264298828318715-tmp-tgz.lock
 26 silly gunzTarPerm modes [ '755', '644' ]
 27 silly gunzTarPerm extractEntry package.json
 28 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
@@ -43,8 +43,8 @@
 30 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
 31 silly gunzTarPerm extractEntry README.md
 32 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
-33 silly gunzTarPerm extractEntry Gruntfile
-34 silly gunzTarPerm modified mode [ 'Gruntfile', 436, 420 ]
+33 silly gunzTarPerm extractEntry Gruntfile.js
+34 silly gunzTarPerm modified mode [ 'Gruntfile.js', 436, 420 ]
 35 silly gunzTarPerm extractEntry bower.json
 36 silly gunzTarPerm modified mode [ 'bower.json', 436, 420 ]
 37 silly gunzTarPerm extractEntry demo/demo.html
@@ -53,20 +53,20 @@
 40 silly gunzTarPerm modified mode [ 'dist/lwng-modal.min.js', 436, 420 ]
 41 silly gunzTarPerm extractEntry src/lwng-modal.js
 42 silly gunzTarPerm modified mode [ 'src/lwng-modal.js', 436, 420 ]
-43 silly lockFile 8ac1a7bb-89425-0-4519062105100602-package tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
-44 silly lockFile 8ac1a7bb-89425-0-4519062105100602-package tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
-45 silly lockFile b8abfd8f-89425-0-4519062105100602-tmp-tgz tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
-46 silly lockFile b8abfd8f-89425-0-4519062105100602-tmp-tgz tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/tmp.tgz
+43 silly lockFile 2eab9202-144-0-031264298828318715-package tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
+44 silly lockFile 2eab9202-144-0-031264298828318715-package tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
+45 silly lockFile 2ddd388b-144-0-031264298828318715-tmp-tgz tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
+46 silly lockFile 2ddd388b-144-0-031264298828318715-tmp-tgz tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/tmp.tgz
 47 verbose tar pack [ '/home/mihaly/.npm/lwng-modal/0.0.0/package.tgz',
-47 verbose tar pack   '/home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package' ]
+47 verbose tar pack   '/home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package' ]
 48 verbose tarball /home/mihaly/.npm/lwng-modal/0.0.0/package.tgz
-49 verbose folder /home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
-50 silly lockFile 8ac1a7bb-89425-0-4519062105100602-package tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
-51 verbose lock tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package /home/mihaly/.npm/8ac1a7bb-89425-0-4519062105100602-package.lock
+49 verbose folder /home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
+50 silly lockFile 2eab9202-144-0-031264298828318715-package tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
+51 verbose lock tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package /home/mihaly/.npm/2eab9202-144-0-031264298828318715-package.lock
 52 silly lockFile a2b34f66-npm-lwng-modal-0-0-0-package-tgz tar:///home/mihaly/.npm/lwng-modal/0.0.0/package.tgz
 53 verbose lock tar:///home/mihaly/.npm/lwng-modal/0.0.0/package.tgz /home/mihaly/.npm/a2b34f66-npm-lwng-modal-0-0-0-package-tgz.lock
-54 silly lockFile 8ac1a7bb-89425-0-4519062105100602-package tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
-55 silly lockFile 8ac1a7bb-89425-0-4519062105100602-package tar:///home/mihaly/tmp/npm-17037-sWOjWn_W/1428680889425-0.4519062105100602/package
+54 silly lockFile 2eab9202-144-0-031264298828318715-package tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
+55 silly lockFile 2eab9202-144-0-031264298828318715-package tar:///home/mihaly/tmp/npm-17800-wfZv1p4X/1428681934144-0.031264298828318715/package
 56 silly lockFile a2b34f66-npm-lwng-modal-0-0-0-package-tgz tar:///home/mihaly/.npm/lwng-modal/0.0.0/package.tgz
 57 silly lockFile a2b34f66-npm-lwng-modal-0-0-0-package-tgz tar:///home/mihaly/.npm/lwng-modal/0.0.0/package.tgz
 58 silly lockFile 2b7e0f7f-aly-npm-lwng-modal-0-0-0-package /home/mihaly/.npm/lwng-modal/0.0.0/package
@@ -82,7 +82,7 @@
 68 silly gunzTarPerm extractEntry package.json
 69 silly gunzTarPerm extractEntry .npmignore
 70 silly gunzTarPerm extractEntry README.md
-71 silly gunzTarPerm extractEntry Gruntfile
+71 silly gunzTarPerm extractEntry Gruntfile.js
 72 silly gunzTarPerm extractEntry bower.json
 73 silly gunzTarPerm extractEntry demo/demo.html
 74 silly gunzTarPerm extractEntry dist/lwng-modal.min.js
@@ -113,7 +113,7 @@
 84 silly publish   readme: '# lwng-modal\nLightweight Angular Bootstrap Modal\n\n\n\n\n Usage:\n\n ==DIALOG\n\n betterbrandModal.dialog({title:"My modal!!", template:"<div class=\'modal-body\'><h1>Hello there </h1></div><div class=\'modal-footer\'><button ng-click=\'modal.resolve(\\"end1111!!\\")\'>Resolve1</button><button ng-click=\'modal.resolve(\\"end22222!!\\")\'>Resolve2</button><button ng-click=\'modal.reject(\\"end!!\\")\'>Reject</button></div>"},$scope).then(\n function(result){\n console.log(\'SUCCESS RESOLVE\',result)\n },\n function(){\n console.log(\'SUCCESS REJECT\')\n }\n );\n\n== CONFIRM\n\n betterbrandModal.confirm({title:"Delete confirm",message:"Are you sure you want to delete?"}).then(\n function(resolved){},\n function(rejected){}\n );\n\n\n\n',
 84 silly publish   readmeFilename: 'README.md',
 84 silly publish   _id: 'lwng-modal@0.0.0',
-84 silly publish   dist: { shasum: 'd2782f1a320e8493b9256db634858127434c46df' },
+84 silly publish   dist: { shasum: '249c66e77dc49563e6d0b1b2181689ade19b25c8' },
 84 silly publish   _from: '.' }
 85 error need auth auth and email required for publishing
 85 error need auth You need to authorize this machine using `npm adduser`

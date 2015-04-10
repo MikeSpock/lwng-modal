@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('lwng.modal',[])
-    .factory('lwngModal', ['$q','$compile','$rootScope',function ($q, $compile, $rootScope) {
+    .factory('lwngModalFactory', ['$q','$compile','$rootScope',function ($q, $compile, $rootScope) {
 
         var modalContainer = document.body.appendChild(document.createElement('div'));
 
@@ -13,7 +13,7 @@ angular.module('lwng.modal',[])
         };
 
         var addModalContainer  = function(){
-            var container =$('<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">{{modal.config.title}}</h4></div></div></div></div>');
+            var container = $('<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true"><div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h4 class="modal-title">{{modal.config.title}}</h4></div></div></div></div>');
             $(modalContainer).append(container);
 
             return container;
