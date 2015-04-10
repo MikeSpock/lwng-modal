@@ -1,6 +1,12 @@
 # lwng-modal
 Lightweight Angular Bootstrap Modal
 
+Looking for an ultra lightweight Bootstrap modal handler in Angular? Here, you got it. 
+I was looking for the same thing - bootstrap-ui was too large, and I found most of the alternatives awkward implementations. Anyways, pull this into your project through bower, and see how easy and fast this one is.
+
+##Bower
+    bower install lwng-modal --save
+
 ##Usage:
 
 ###DIALOG
