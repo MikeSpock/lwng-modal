@@ -1,0 +1,10 @@
+{
+  "name": "LWNG's Bootstrap Modal",
+  "description": "",
+  "version": "0.0.2",
+  "homepage": "https://github.com/MikeSpock/lwng-modal",
+  "dependencies": {
+    "bootstrap": ">3.0.0",
+    "angular": ">1.2.9"
+  }
+}
